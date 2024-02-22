@@ -1,1 +1,34 @@
-<!DOCTYPE html><html lang="en"><head>    <meta charset="UTF-8">    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title>Cute Make</title>    <link rel="stylesheet" href="https://actwu.github.io/ui/cute.css"/></head><body><style>    textarea,input{border:0;width: 16em;min-height: 1em;    }       [hide], .hide {        display: none;        size: 0;        width: 0;        height: 0;    }</style><center>    <input nobdr mbg id="fileName" placeholder="File Name" onchange="updateUrlParam()" /><br>    <textarea mbg placeholder="code" id="codeEditor" rows="9"></textarea><br>   <cen> <a ybg onclick="loadCode()">        <p b>Load</p>    </a> <a gbg onclick="saveCode()">        <p b>Save</p>    </a></cen></center><script>    function updateUrlParam() {        const fileName = document.getElementById('fileName').value;        const urlParams = new URLSearchParams(window.location.search);        urlParams.set('name', fileName);        window.history.replaceState({}, '', `${window.location.pathname}?${urlParams}`);    }    function saveCode() {        const code = document.getElementById('codeEditor').value;        const nameParam = new URLSearchParams(window.location.search).get('name');        localStorage.setItem(nameParam, code);    }    function loadCode() {        const nameParam = new URLSearchParams(window.location.search).get('name');        const savedCode = localStorage.getItem(nameParam);        if (savedCode !== null) {            document.getElementById('codeEditor').value = savedCode;        }    }    // Load code when the page loads    loadCode();</script></body></html>
+<!DOCTYPE html><html lang="en"><head>    <meta charset="UTF-8">    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title>Cute Make</title>    <link rel="stylesheet" href="https://actwu.github.io/ui/cute.css"/></head><body><style>    textarea,input{border:0;width: 16em;min-height: 1em;}  embed {width:99%; height: 80vh;}[hide], .hide {display: none;size: 0;width: 0;height: 0;    }</style> <section mainSc> <center>    <input nobdr mbg id="fileName" placeholder="File Name" onchange="updateUrlParam()" /><br>    <textarea mbg placeholder="code" id="codeEditor" rows="9"></textarea><br>   <cen> <a pbg onclick="document.querySelector('[mainSc]').classList = 'hide'; document.querySelector('[runSc]').classList = ''; ">></a> <a ybg onclick="loadCode()">        <p b>!</p>    </a> <a gbg onclick="saveCode()">        <p b>#</p>    </a></cen><left><a onclick='navigator.clipboard.writeText(`<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Website Title</title>
+<meta name="description" content="Brief description of your website, ideally including relevant keywords.">
+<meta name="keywords" content="List of keywords related to your website content.">
+<meta name="author" content="Your Name or Company Name">
+<meta name="robots" content="index, follow">
+<meta name="referrer" content="no-referrer-when-downgrade">
+<meta name="googlebot" content="index, follow">
+<meta name="bingbot" content="index, follow">
+<meta property="og:title" content="Your Website Title">
+<meta property="og:description" content="Brief description of your website, ideally including relevant keywords.">
+<meta property="og:image" content="URL of an image representing your website for social sharing">
+<meta property="og:url" content="URL of your website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Your Website Title">
+<meta name="twitter:description" content="Brief description of your website, ideally including relevant keywords.">
+<meta name="twitter:image" content="URL of an image representing your website for social sharing">
+<meta name="twitter:site" content="@YourTwitterHandle">
+<meta name="twitter:creator" content="@YourTwitterHandle">
+<meta name="application-name" content="Your Website Name">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="URL of your tile image">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="https://actwu.github.io/ui/cute.css"/>
+</head>
+<body>
+ 
+</body>
+</html>`); alert("Copied Temp ^~^") '><p b>Code Temp</p> </a><a onclick=' navigator.clipboard.writeText(`<p b> </p>`); alert("Copied Text ^~^") '><p b>&lt;p&gt; &lt;p/&gt;</p> </a><a onclick=' navigator.clipboard.writeText(`<p v> &lt;code&gt; &lt;code/&gt; </p>`); alert("Copied Code ^~^") '><p b>Code</p> </a><a onclick=' navigator.clipboard.writeText(`<box bg> </box>`); alert("Copied Box ^~^") '><p b>Box &lt;box&gt;</p> </a><a onclick=' navigator.clipboard.writeText(`<box src=" ">`); alert("Copied img ^~^") '><p b>Img &lt;img&gt;</p> </a><a onclick=' navigator.clipboard.writeText(`<box src=" ">`); alert("Copied Cen ^~^") '><p b>Center &lt;cen&gt;</p> </a></left></center> </section> <section runSc class="hide"> <center><embed src="https://actwu.github.io/ui/cute/code/re.html"> </embed> </center><cen> <a pbg onclick="document.querySelector('[runSc]').classList = 'hide'; document.querySelector('[mainSc]').classList = ''; "><</a> </cen> </section><script>    function updateUrlParam() {        const fileName = document.getElementById('fileName').value;        const urlParams = new URLSearchParams(window.location.search);        urlParams.set('name', fileName);        window.history.replaceState({}, '', `${window.location.pathname}?${urlParams}`);    }    function saveCode() {        const code = document.getElementById('codeEditor').value;        const nameParam = new URLSearchParams(window.location.search).get('name');        localStorage.setItem(nameParam, code);    }    function loadCode() {        const nameParam = new URLSearchParams(window.location.search).get('name');        const savedCode = localStorage.getItem(nameParam);        if (savedCode !== null) {            document.getElementById('codeEditor').value = savedCode;        }    }    // Load code when the page loads    loadCode(); </script></body></html>
