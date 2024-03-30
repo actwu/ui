@@ -1,12 +1,17 @@
+<style>
+
 /*COPYLEFT BY ACTWU  ITS WHAT MADE WITH ANY CODE COPY FROM THIS MUST CREDIT SHOULD NOT BE COPIED ALL COPIES THAT IS NOT NOTED BY ACTWU IS PROHIBITED*//*https://actwu.github.io/ui/cute*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');@import url('https://fonts.googleapis.com/css2?family=Unbound&display=swap');
 ::-webkit-scrollbar { /*_irie*/ width: 12px;  height: 12px;}
 ::-webkit-scrollbar-thumb {  background: #888;  /*_urh*/ border-radius: 10px;}
 ::-webkit-scrollbar-thumb:hover {  background: #555;} 
 * { text-decoration: none; text-rendering: optimizeLegibility; text-transform: none; 
---red: #EF7C8E;  --blue:#BFD7ED;  --yellow: #ffffcc;  --green: #B6E2D3;  --pink: #F1CCD7;  /*_73*/ --vio: #e6ccff;  --matte: #fff2ff;  --black: #101010;
-border-radius: 15px;font-weight:500;  font-size: 19px;  letter-spacing:-1.24px;  margin: 5px;gap:5px;/*&:*/ font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; } 
-:root, html, body { background-color: var(--matte); border-radius:0px; }
+--red: #EF7C8E;  --blue: #305bc7;  --yellow: #fcda6a;  --green: #50de89;  --pink: #F1CCD7;  --vio: #bb78fa;  --matte: #fff2ff;  --black: #101010;
+
+--red2: #661e28;  --blue2: #0d1938;  --yellow2: #807142;  --green2: #278c50;  --pink2: #8c5f6d; --vio2: #492d63;  --matte2: #a18fa1;  --black2: #404040;
+
+border-radius: 15px; font-weight:500;  font-size: 19px;  letter-spacing:-1.24px;  margin: 5px;gap:5px;/*&:*/ font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; } 
+:root, html, body { background-color: transparent; border-radius:0px; }
 body { text-align: center; }
 [lock] { user-select: none; }
 [sticky] { position: sticky; }
@@ -14,7 +19,7 @@ body { text-align: center; }
 [item] { display: flex; gap: 9px; justify-content: center; place-items: center; flex-wrap: wrap; gap: 0.1fr; }
 [item-left] { display: flex; gap: 9px; justify-content: flex-start; place-content: flex-start; flex-grow: 1; flex-wrap: wrap; }
 [item-right] { display: flex; gap: 9px; justify-content: flex-end; place-content: flex-end; flex-grow: 1; flex-wrap: wrap; }
-[center] { display: grid; justify-content: center; place-content: center; }
+[center], center { display: grid; justify-items: center; place-items: center; }
 [left] { display: grid; gap: 9px; justify-content: left; place-content: left; }
 [right] { display: grid; gap: 9px; justify-content: right; place-content: right; }
 [row] { display: flex; gap: 9px; flex-direction: row; justify-content: center; place-items: center; flex-wrap: wrap; }
@@ -35,7 +40,7 @@ body { text-align: center; }
 [layer="1" ] {z-index: 1;}  [layer="2"] {z-index: 2;}
 [layer="3" ] {z-index: 3;} [layer="4" ] {z-index: 4;}
 [layer="5" ] {z-index: 5;}                                     
-bg {z-index: -1;top:0;left:0;right:0;bottom:0;position:fixed;display:block;}
+bg { margin:0; border-radius:0; z-index: -1;top:0;left:0;right:0;bottom:0;position:fixed;display:block;}
 screen {z-index: 1;top:0;left:0;right:0;bottom:0;position:fixed;display:block;}
 screen#logo {top: 0px;right: 0px;left: 0px;bottom: 0px;width: 0%;height: 0%;z-index: 0;position: fixed;font-size: .3in;size: 0%;animation: logoscreen 2s;opacity: 0%;display: grid;place-content: center;justify-content: center;flex-wrap: wrap;overflow-y: scroll;}screen#logo * {display: grid;place-content: center;justify-content: center;flex-wrap: wrap;z-index: 4;}@keyframes logoscreen {0%,50%{z-index: 4;width: auto;height: auto;opacity: 100%;size: auto;}100% {z-index: 4;width: auto;height: auto;opacity: 0%;size: auto;}}
 [overlay] {z-index: 2;top:0;left:0;right:0;bottom:0;position:fixed;display:block;}
@@ -49,7 +54,8 @@ screen#logo {top: 0px;right: 0px;left: 0px;bottom: 0px;width: 0%;height: 0%;z-in
 [rotate] {transform: rotate(90deg);}
 p[rotate]{transform: rotate(90deg), translateX(0.025em);}
 [hide],[hide] *, .hide, .hide * { display:none; visibility:hidden; width:0;height:0; size:0;opacity:0%; font-size:0; color:transparent; background:transparent;position:fixed; top:0;z-index:-2;}
-[nobdr] {border:0; outline: none;}
+[nobdr] {border:0; outline: none; box-shadow: none; }
+
 [r] {color: var(--red);} [rbg] {background-color: var(--red);}
 [l] {color: var(--blue);}[lbg]{background-color: var(--blue);}
 [y] {color: var(--yellow);}[ybg] {background-color: var(--yellow);} 
@@ -58,16 +64,28 @@ p[rotate]{transform: rotate(90deg), translateX(0.025em);}
 [v] {color: var(--vio);}[vbg] {background-color: var(--vio);} 
 [m] {color: var(--matte);} [mbg] {background-color: var(--matte);}
 [b] {color: var(--black);} [bbg] {background-color: var(--black);} 
-p.head, p[head] { font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; }
+
+[r2] {color: var(--red2);} [rbg2] {background-color: var(--red2);}
+[l2] {color: var(--blue2);}[lbg2]{background-color: var(--blue2);}
+[y2] {color: var(--yellow2);}[ybg2] {background-color: var(--yellow2);} 
+[g2] {color: var(--green2);}[gbg2] {background-color: var(--green2);} 
+[p2] {color: var(--pink2);}[pbg2] {background-color: var(--pink2); } 
+[v2] {color: var(--vio2);}[vbg2] {background-color: var(--vio2);} 
+[m2] {color: var(--matte2);} [mbg2] {background-color: var(--matte2);}
+[b2] {color: var(--black2);} [bbg2] {background-color: var(--black2);} 
+
+p.title, p[title] { font-size: 32px; }
+p.head, p[head] { font-size: 28px; }
 p.small, p[small] { font-size: 10px; } 
 p[caps] {text-transform: capitalize;}
 p[up] {text-transform: uppercase;}
 p[italic] {font-style: italic;}
 p[bold] {font-weight: 700;}
 p[light] {font-weight: lighter;}
-.box, box, cont, .cont { padding: 8em 1.2em;outline:solid 2px var(--black) ;  display:block; max-width: 28em;} 
+p[mono],.mono {font-family: "Space Mono", monospace;}
+.box, box, cont, .cont { border-radius: 15px; padding: 8em 1.2em;outline:solid 2px var(--black) ;  display:block; max-width: 28em;} 
 box[small] {padding: 4em 0.7em; } 
-box > box { border-radius: 15px;} 
+
 box[head], cont[head] { position:fixed; box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); backdrop-filter: blur(5.4px); -webkit-backdrop-filter: blur(5.4px); border-radius:0; left:0;right:0;top:0;}
 @media screen and (orientation: landscape) {
 box[side], box[foot], cont[side], cont[foot]{ top: 0px; left: 0px; width: 1.8em;max-width:2em; bottom: 0px;gap: 5px; display: grid;place-content: center; padding: 1em; justify-content: center; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.09);backdrop-filter: blur(5.4px); -webkit-backdrop-filter: blur(2.4px);position: fixed; }
@@ -78,11 +96,10 @@ box[foot], cont[foot] { position:fixed; box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1
 }
 box[side] *,box[foot] *, cont[side] *,cont[foot] * {padding: 2px 5px;gap:5px;}
 }
-cont[island]{margin:10px; border-radius:10px;}
-a, button {  padding: 0.5em 1.4em;  display:flex;width:max-content; cursor: pointer; margin-bottom:12px;  transition: background-color, margin, margin-bottom, transform 0.5s;transform: translateY(5px); outline:solid 2px var(--black) ;  box-shadow: 0px 5px 1px #101010;}
+cont[island]{margin:10px; border-radius:10px;} a, button {  padding: 0.5em 1.4em;  display:flex;width:max-content; cursor: pointer; margin-bottom:12px;  transition: background-color, margin, margin-bottom, transform 0.5s;transform: translateY(5px); outline:solid 2px var(--black) ;  box-shadow: 0px 5px 1px #101010;}
 a:hover, button:hover {  box-shadow: 0px 0px 1px #101010; transform: translateY(-5px); margin-bottom:8px;} 
 img, embed, iframe, video{outline:solid 2px var(--black) ; width:80%; max-width: 28em;  height: auto;} 
 textarea, input{outline:solid 2px var(--black) ; width: 100%; max-width:28em; height: auto; } 
 .cen, cen, .left, left, .right, right { display: flex; justify-content: center;  align-items: center;  flex-wrap: wrap;}
 left{ justify-content: flex-start;}
-right {justify-content: flex-end;}
+right {justify-content: flex-end;} </style>
