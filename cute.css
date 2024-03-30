@@ -1,4 +1,4 @@
-<style>
+
 
 /*COPYLEFT BY ACTWU  ITS WHAT MADE WITH ANY CODE COPY FROM THIS MUST CREDIT SHOULD NOT BE COPIED ALL COPIES THAT IS NOT NOTED BY ACTWU IS PROHIBITED*//*https://actwu.github.io/ui/cute*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');@import url('https://fonts.googleapis.com/css2?family=Unbound&display=swap');
@@ -102,4 +102,4 @@ img, embed, iframe, video{outline:solid 2px var(--black) ; width:80%; max-width:
 textarea, input{outline:solid 2px var(--black) ; width: 100%; max-width:28em; height: auto; } 
 .cen, cen, .left, left, .right, right { display: flex; justify-content: center;  align-items: center;  flex-wrap: wrap;}
 left{ justify-content: flex-start;}
-right {justify-content: flex-end;} </style>
+right {justify-content: flex-end;} 
