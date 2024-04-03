@@ -1,6 +1,7 @@
 
 
 
+
 /*COPYLEFT BY ACTWU  ITS WHAT MADE WITH ANY CODE COPY FROM THIS MUST CREDIT SHOULD NOT BE COPIED ALL COPIES THAT IS NOT NOTED BY ACTWU IS PROHIBITED*//*https://actwu.github.io/ui/cute*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');@import url('https://fonts.googleapis.com/css2?family=Unbound&display=swap');
 ::-webkit-scrollbar { /*_irie*/ width: 12px;  height: 12px;}
@@ -85,6 +86,8 @@ p[bold] {font-weight: 700;}
 p[light] {font-weight: lighter;}
 p[mono],.mono {font-family: "Space Mono", monospace;}
 
+
+hero { border-radius: 0px; padding: 8em 1.2em;outline:none;  display:block; margin:0px; gap:0px;} 
 .box, box, cont, .cont { border-radius: 0px; padding: 8em 1.2em;outline:none;  display:block; margin:0px; gap:0px;} 
 .box .box, box box, cont cont, .cont .cont { border-radius: 15px; padding: 8em 1.2em;outline:solid 2px var(--black) ;  display:block; max-width: 28em;} 
 box[small] {padding: 4em 0.7em; } 
@@ -106,3 +109,4 @@ textarea, input{outline:solid 2px var(--black) ; width: 100%; max-width:28em; he
 .cen, cen, .left, left, .right, right { display: flex; justify-content: center;  align-items: center;  flex-wrap: wrap;}
 left{ justify-content: flex-start;}
 right {justify-content: flex-end;} 
+
