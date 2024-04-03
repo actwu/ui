@@ -83,7 +83,9 @@ p[italic] {font-style: italic;}
 p[bold] {font-weight: 700;}
 p[light] {font-weight: lighter;}
 p[mono],.mono {font-family: "Space Mono", monospace;}
-.box, box, cont, .cont { border-radius: 15px; padding: 8em 1.2em;outline:solid 2px var(--black) ;  display:block; max-width: 28em;} 
+
+.box, box, cont, .cont { border-radius: 0px; padding: 8em 1.2em;outline:solid 2px var(--black) ;  display:block; margin:0px; gap:0px;} 
+.box .box, box box, cont cont, .cont .cont { border-radius: 15px; padding: 8em 1.2em;outline:solid 2px var(--black) ;  display:block; max-width: 28em;} 
 box[small] {padding: 4em 0.7em; } 
 
 box[head], cont[head] { position:fixed; box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); backdrop-filter: blur(5.4px); -webkit-backdrop-filter: blur(5.4px); border-radius:0; left:0;right:0;top:0;}
