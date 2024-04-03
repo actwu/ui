@@ -87,7 +87,7 @@ p[light] {font-weight: lighter;}
 p[mono],.mono {font-family: "Space Mono", monospace;}
 
 
-hero { border-radius: 0px; padding: 8em 1.2em;outline:none;  display:block; margin:0px; gap:0px;} 
+hero, .hero, [hero] { border-radius: 0px; padding: 8em 1.2em;outline:none;  display:block; margin:0px; gap:0px;} 
 .box, box, cont, .cont { border-radius: 0px; padding: 8em 1.2em;outline:none;  display:block; margin:0px; gap:0px;} 
 .box .box, box box, cont cont, .cont .cont { border-radius: 15px; padding: 8em 1.2em;outline:solid 2px var(--black) ;  display:block; max-width: 28em;} 
 box[small] {padding: 4em 0.7em; } 
