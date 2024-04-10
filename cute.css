@@ -2,6 +2,7 @@
 
 
 
+
 /*COPYLEFT BY ACTWU  ITS WHAT MADE WITH ANY CODE COPY FROM THIS MUST CREDIT SHOULD NOT BE COPIED ALL COPIES THAT IS NOT NOTED BY ACTWU IS PROHIBITED*//*https://actwu.github.io/ui/cute*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');@import url('https://fonts.googleapis.com/css2?family=Unbound&display=swap');
 ::-webkit-scrollbar { /*_irie*/ width: 12px;  height: 12px;}
@@ -103,10 +104,11 @@ box[foot], cont[foot] { position:fixed; box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1
 box[side] *,box[foot] *, cont[side] *,cont[foot] * {padding: 2px 5px;gap:5px;}
 }
 cont[island]{margin:10px; border-radius:10px;} 
-a, button {  padding: 0.5em 1.4em;  display:flex;width:max-content; cursor: pointer; margin-bottom:12px;
-transition: background-color, box-shadow, margin-bottom, transform 0.5s;
-transform: translateY(5px); outline:solid 2px var(--black) ;  box-shadow: 0px 5px 1px #101010;}
-a:hover, button:hover { transition: background-color, box-shadow, margin-bottom, transform 0.5s; box-shadow: 0px 0px 1px #101010; transform: translateY(-5px); margin-bottom:8px;} 
+a, button {  padding: 0.5em 1.4em;  display:flex;width:max-content; cursor: pointer; margin-bottom:0px;
+transition: background-color, box-shadow, margin, transform 0.8s;
+transform: translateY(0px); outline:solid 2px var(--black) ;  box-shadow: 0px 5px 1px var(--black);}
+a:hover, button:hover { transition: background-color, box-shadow, margin, transform 0.8s; box-shadow: 0px 0px 1px var(--black); 
+transform: translateY(5px); margin-bottom:0px;} 
 img, embed, iframe, video{outline:solid 2px var(--black) ; width:80%; max-width: 28em;  height: auto;} 
 textarea, input{outline:solid 2px var(--black) ; width: 100%; max-width:28em; height: auto; } 
 .cen, cen, .left, left, .right, right { display: flex; justify-content: center;  align-items: center;  flex-wrap: wrap;}
