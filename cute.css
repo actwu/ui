@@ -3,6 +3,7 @@
 
 
 
+
 /*COPYLEFT BY ACTWU  ITS WHAT MADE WITH ANY CODE COPY FROM THIS MUST CREDIT SHOULD NOT BE COPIED ALL COPIES THAT IS NOT NOTED BY ACTWU IS PROHIBITED*//*https://actwu.github.io/ui/cute*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');@import url('https://fonts.googleapis.com/css2?family=Unbound&display=swap');
 ::-webkit-scrollbar { /*_irie*/ width: 12px;  height: 12px;}
@@ -90,7 +91,7 @@ p[mono],.mono {font-family: "Space Mono", monospace;}
 
 hero, .hero, [hero] { border-radius: 0px; padding: 8em 1.2em;outline:none;  display:block; margin:0px; gap:0px;} 
 .box, box, cont, .cont { border-radius: 0px; padding: 8em 1.2em;outline:none;  display:block; margin:0px; gap:0px;} 
-.box .box, box box, cont cont, .cont .cont { border-radius: 15px; padding: 8em 1.2em;outline:solid 2px var(--black) ;  display:block; max-width: 28em;} 
+.box .box, box box, hero box, cont cont, .cont .cont { border-radius: 15px; padding: 8em 1.2em;outline:solid 2px var(--black) ;  display:block; min-width:50vw;max-width: 28em;} 
 box[small] {padding: 4em 0.7em; } 
 
 box[head], cont[head] { position:fixed; box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); backdrop-filter: blur(5.4px); -webkit-backdrop-filter: blur(5.4px); border-radius:0; left:0;right:0;top:0;}
