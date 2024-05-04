@@ -172,6 +172,10 @@ min-height: 0.5in;
 overflow-y: scroll;
 
 }
+  
+[scroll] {
+overflow-y: scroll;
+}
 
 div[scroll] *{
 margin: 0.5em;
