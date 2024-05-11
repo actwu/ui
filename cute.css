@@ -105,7 +105,7 @@ box[foot], cont[foot] { position:fixed; box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1
 box[side] *,box[foot] *, cont[side] *,cont[foot] * {padding: 2px 5px;gap:5px;}
 }
 cont[island]{margin:10px; border-radius:10px;} 
-a, button {  display:flex; width:max-content; border-radius: 10px; color: white; padding: 0px;font-size: 16px; height:max-content; cursor: pointer; margin-bottom:0px;
+a, button {  display:flex; width:max-content; border-radius: 10px; color: white; padding: 0px; height:max-content; padding: 0.5em 1.4em;   cursor: pointer; margin-bottom:0px;
 transition: background-color, box-shadow, margin, transform 0.8s;
 transform: translateY(0px); outline:solid 2px var(--black) ;  box-shadow: 0px 5px 1px var(--black);}
 a:hover, button:hover { transition: background-color, box-shadow, margin, transform 0.8s; box-shadow: 0px 0px 1px var(--black); 
