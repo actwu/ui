@@ -5,6 +5,7 @@
 
 
 
+
 /*COPYLEFT BY ACTWU  ITS WHAT MADE WITH ANY CODE COPY FROM THIS MUST CREDIT SHOULD NOT BE COPIED ALL COPIES THAT IS NOT NOTED BY ACTWU IS PROHIBITED*//*https://actwu.github.io/ui/cute*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');@import url('https://fonts.googleapis.com/css2?family=Unbound&display=swap');
 ::-webkit-scrollbar { /*_irie*/ width: 12px;  height: 12px;}
@@ -97,14 +98,13 @@ box[small] {padding: 4em 0.7em; }
 
 box[head], cont[head] { position:fixed; box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); backdrop-filter: blur(5.4px); -webkit-backdrop-filter: blur(5.4px); border-radius:0; left:0;right:0;top:0;}
 @media screen and (orientation: landscape) {
-box[side], box[foot], cont[side], cont[foot]{ top: 0px; left: 0px; width: 1.8em;max-width:2em; bottom: 0px;gap: 5px; display: grid;place-content: center; padding: 1em; justify-content: center; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.09);backdrop-filter: blur(5.4px); -webkit-backdrop-filter: blur(2.4px);position: fixed; }
+box[side], cont[side]{ top: 0px; left: 0px; width: 1.8em;max-width:2em; bottom: 0px;gap: 5px; display: grid;place-content: center; padding: 1em; justify-content: center; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.09);backdrop-filter: blur(5.4px); -webkit-backdrop-filter: blur(2.4px);position: fixed; }
 box[side] *,box[foot] *, cont[side] *,cont[foot] * { padding: 6px 4px;gap:5px; }
 }
-@media screen and (orientation: portrait)  {
 box[foot], cont[foot] { position:fixed; box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); display:flex;place-content: center;padding: 1em;justify-content: center;backdrop-filter: blur(5.4px);-webkit-backdrop-filter: blur(5.4px);border-radius:0; left:0;right:0;bottom:0;
 }
 box[side] *,box[foot] *, cont[side] *,cont[foot] * {padding: 2px 5px;gap:5px;}
-}
+
 cont[island]{margin:10px; border-radius:10px;} 
 a, button {  display:flex; width:max-content; border-radius: 10px; color: white; padding: 0px; height:max-content; padding: 0.5em 1.4em;   cursor: pointer;
 transition: background-color, box-shadow, transform 0.8s;
