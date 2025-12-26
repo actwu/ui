@@ -1,0 +1,53 @@
+textarea {
+  flex: 2;
+  background-color: #1e1e21;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Ccircle cx='12' cy='12' r='8' fill='%235a5a5e'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 5px bottom 5px;
+  background-size: 24px 24px;
+  
+  border: none;
+  border-radius: 25px;
+  padding: 15px;
+  
+  resize: y; 
+  min-height: 240px;
+  font-size: 18px;
+  outline: none;
+  
+}
+
+
+
+textarea::-webkit-resizer {
+  background-color: transparent;
+}
+
+textarea::-webkit-scrollbar {
+  width: 20px;
+  height: 20px;
+}
+
+textarea::-webkit-scrollbar-thumb {
+  background: #5a5a5e;
+  border-radius: 20px;
+  border: 6px solid #1c1c1e;
+}
+
+textarea::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+[pad] {padding:15px; border-radius:15px}
+[sat]:first-child {z-index:3;}
+
+[sat] {bottom:10px; left:0; right:0; position: sticky; z-index:2;}
+
+
+sp {flex:1;
+display:flex;}
+
+  h1 { font-size: 36px; margin-bottom: 10px; font-weight: bold; }
+  strong,h2{ font-size: 22px; }
+  p,h3 {  font-size: 16px; }
+  h3{ color: #8e8e93; }
