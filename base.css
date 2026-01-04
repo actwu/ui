@@ -1,5 +1,5 @@
 
-/*COPYLEFT BY ACTWU  ITS WHAT MADE WITH ANY CODE COPY FROM THIS MUST CREDIT SHOULD NOT BE COPIED ALL COPIES THAT IS NOT NOTED BY ACTWU IS PROHIBITED*//*https://actwu.github.io/ui/cute*/
+/*COPYLEFT BY ACTWU  ITS WHAT MADE WITH ANY CODE COPY FROM THIS MUST CREDIT SHOULD NOT BE COPIED ALL COPIES THAT IS NOT NOTED BY ACTWU IS PROHIBITED*//*https://actwu.github.io/ui/base*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 @media screen {
@@ -17,10 +17,10 @@ flex-direction: column;
 
 *,*:hover{
 margin: 0;
-border: none;
-outline: none;
+border: unset;
+outline: unset;
 border-radius: 0;
-color: #f2f2ff;
+color: #fafaff;
 font-weight: 500;
 flex-wrap: wrap;
 font-size: 18px;
@@ -129,7 +129,7 @@ place-items: center;
 
 flex-grow: 1; 
 
-border: 0;
+border: unset;
 width: auto;
 height: auto;
 min-width: 0.5in;
@@ -153,7 +153,7 @@ flex-direction: row;
 
 div[box], a[box] {
 flex-grow: 1; 
-border: 0;
+border: unset;
 max-width: 1in;
 }
 
@@ -163,7 +163,7 @@ display: block;
 padding: 0.1em;
 flex-grow: 1; 
 place-content: left;
-border: 0;
+border: unset;
 width: auto;
 height: auto;
 min-width: 0.5in;
@@ -237,7 +237,7 @@ font-size: 0;
 [rotate] {transform: rotate(90deg);}
 p[rotate]{transform: rotate(90deg), translateX(0.025em);}
 [hide],[hide] *, .hide, .hide * { display:none; visibility:hidden; width:0;height:0; size:0;opacity:0%; font-size:0; color:transparent; background:transparent;position:fixed; top:0;z-index:-2;}
-[nobdr] {border:0; outline: none; box-shadow: none; }
+[nobdr] {border: unset; outline: none; box-shadow: none; }
 }
 
 @media screen {
@@ -267,7 +267,7 @@ place-items: center;
 
 flex-grow: 1; 
 
-border: 0;
+border: unset;
 width: auto;
 height: auto;
 gap: 2px;
@@ -284,7 +284,7 @@ place-items: center;
 
 flex-grow: 1; 
 
-border: 0;
+border: unset;
 width: auto;
 height: auto;
 gap: 2px;
@@ -295,7 +295,7 @@ background-attachment: fixed;
 image-rendering: auto;
 display: flex;
 flex-grow: 1; 
-border: 0;
+border: unset;
 width: 100%;
 height: auto;
 max-height: 90vh;
