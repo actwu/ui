@@ -241,7 +241,17 @@ max-height: 5em;
 max-height: auto;
 }
 
-
+seo{
+opacity:0;
+visibility: hidden;
+font-size: 0;
+size:0;
+width:0;
+max-width:0;
+z-index:-3;
+bottom:0;
+}
+  
 [hide] {
 display: none;
 visibility: hidden;
