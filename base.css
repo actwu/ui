@@ -7,6 +7,7 @@
 ::-webkit-scrollbar-thumb {  background: #888;  /*_urh*/ border-radius: 10px;}
 ::-webkit-scrollbar-thumb:hover {  background: #555;} 
 
+  
 html, body {
 height: 100vh;
 margin: 0;
@@ -311,4 +312,43 @@ background: var(--black2);
 
 color: var(--matte);
 }
+}
+
+@media {
+
+    html {
+        background: transparent;
+    }
+    bg {
+        left:0px;
+        top:0px;
+    }
+    body {
+       
+        padding:10px;
+        background: transparent;
+    }
+*{--matte: #fafaff;
+    --matte2: #e4e5f2;
+}
+
+    p {align-items:center;display:flex; gap:5px;}
+main {
+    height: 100dvh;
+    overflow-y: auto;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;gap:5px;
+}
+
+section {
+    display: flex;  margin:auto;
+        max-width: 720px;
+    flex-direction: column;gap:5px;
+    min-height: 95dvh;
+    height: 95dvh;
+    scroll-snap-align: start;
+}
+
+[hidden]{display:none;}
+
 }
