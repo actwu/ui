@@ -92,7 +92,6 @@ screen#logo {top: 0px;right: 0px;left: 0px;bottom: 0px;width: 0%;height: 0%;z-in
 [vbg2] {background-color: var(--vio2);}
 [vol2] {outline: var(--vio2) solid 2px}
 
-/*COPYLEFT BY ACTWU  ITS WHAT MADE WITH ANY CODE COPY FROM THIS MUST CREDIT SHOULD NOT BE COPIED ALL COPIES THAT IS NOT NOTED BY ACTWU IS PROHIBITED*//*https://actwu.github.io/ui/cute*/
 
 
 [b] {color: var(--black);}
@@ -112,7 +111,57 @@ screen#logo {top: 0px;right: 0px;left: 0px;bottom: 0px;width: 0%;height: 0%;z-in
 [mbg2] {background-color: var(--matte2);}
 [mol2] {outline: var(--matte2) solid 2px}
 
+  [rsh] {border-bottom: 4px solid color-mix(in srgb, var(--red) 75%, black); transform: translateY(0); transition: 0.2s;}
+[rsh]:hover {border-bottom-color: color-mix(in srgb, var(--red) 0%, black); transform: translateY(2px);}
+
+[rsh2] {border-bottom: 4px solid color-mix(in srgb, var(--red2) 75%, black); transform: translateY(0); transition: 0.2s;}
+[rsh2]:hover {border-bottom-color: color-mix(in srgb, var(--red2) 0%, black); transform: translateY(2px);}
+
+[lsh] {border-bottom: 4px solid color-mix(in srgb, var(--blue) 75%, black); transform: translateY(0); transition: 0.2s;}
+[lsh]:hover {border-bottom-color: color-mix(in srgb, var(--blue) 0%, black); transform: translateY(2px);}
+
+[lsh2] {border-bottom: 4px solid color-mix(in srgb, var(--blue2) 75%, black); transform: translateY(0); transition: 0.2s;}
+[lsh2]:hover {border-bottom-color: color-mix(in srgb, var(--blue2) 0%, black); transform: translateY(2px);}
+
+[ysh] {border-bottom: 4px solid color-mix(in srgb, var(--yell) 75%, black); transform: translateY(0); transition: 0.2s;}
+[ysh]:hover {border-bottom-color: color-mix(in srgb, var(--yell) 0%, black); transform: translateY(2px);}
+
+[ysh2] {border-bottom: 4px solid color-mix(in srgb, var(--yell2) 75%, black); transform: translateY(0); transition: 0.2s;}
+[ysh2]:hover {border-bottom-color: color-mix(in srgb, var(--yell2) 0%, black); transform: translateY(2px);}
+
+[gsh] {border-bottom: 4px solid color-mix(in srgb, var(--green) 75%, black); transform: translateY(0); transition: 0.2s;}
+[gsh]:hover {border-bottom-color: color-mix(in srgb, var(--green) 0%, black); transform: translateY(2px);}
+
+[gsh2] {border-bottom: 4px solid color-mix(in srgb, var(--green2) 75%, black); transform: translateY(0); transition: 0.2s;}
+[gsh2]:hover {border-bottom-color: color-mix(in srgb, var(--green2) 0%, black); transform: translateY(2px);}
+
+[psh] {border-bottom: 4px solid color-mix(in srgb, var(--pink) 75%, black); transform: translateY(0); transition: 0.2s;}
+[psh]:hover {border-bottom-color: color-mix(in srgb, var(--pink) 0%, black); transform: translateY(2px);}
+
+[psh2] {border-bottom: 4px solid color-mix(in srgb, var(--pink2) 75%, black); transform: translateY(0); transition: 0.2s;}
+[psh2]:hover {border-bottom-color: color-mix(in srgb, var(--pink2) 0%, black); transform: translateY(2px);}
+
+[vsh] {border-bottom: 4px solid color-mix(in srgb, var(--vio) 75%, black); transform: translateY(0); transition: 0.2s;}
+[vsh]:hover {border-bottom-color: color-mix(in srgb, var(--vio) 0%, black); transform: translateY(2px);}
+
+[vsh2] {border-bottom: 4px solid color-mix(in srgb, var(--vio2) 75%, black); transform: translateY(0); transition: 0.2s;}
+[vsh2]:hover {border-bottom-color: color-mix(in srgb, var(--vio2) 0%, black); transform: translateY(2px);}
+
+[bsh] {border-bottom: 4px solid color-mix(in srgb, var(--black) 75%, black); transform: translateY(0); transition: 0.2s;}
+[bsh]:hover {border-bottom-color: color-mix(in srgb, var(--black) 0%, black); transform: translateY(2px);}
+
+[bsh2] {border-bottom: 4px solid color-mix(in srgb, var(--black2) 75%, black); transform: translateY(0); transition: 0.2s;}
+[bsh2]:hover {border-bottom-color: color-mix(in srgb, var(--black2) 0%, black); transform: translateY(2px);}
+
+[msh] {border-bottom: 4px solid color-mix(in srgb, var(--matte) 75%, black); transform: translateY(0); transition: 0.2s;}
+[msh]:hover {border-bottom-color: color-mix(in srgb, var(--matte) 0%, black); transform: translateY(2px);}
+
+[msh2] {border-bottom: 4px solid color-mix(in srgb, var(--matte2) 75%, black); transform: translateY(0); transition: 0.2s;}
+[msh2]:hover {border-bottom-color: color-mix(in srgb, var(--matte2) 0%, black); transform: translateY(2px);}
+
 }
+/*COPYLEFT BY ACTWU  ITS WHAT MADE WITH ANY CODE COPY FROM THIS MUST CREDIT SHOULD NOT BE COPIED ALL COPIES THAT IS NOT NOTED BY ACTWU IS PROHIBITED*//*https://actwu.github.io/ui/cute*/
+
 @media screen {
 
 section {
@@ -314,7 +363,7 @@ color: var(--matte);
 }
 }
 
-@media {
+@media screen {
 
     html {
         background: transparent;
