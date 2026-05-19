@@ -51,18 +51,26 @@
   "description": "BaseUI is a modern, Flexbox-based, mobile-first CSS framework for building fast, responsive, and beautiful user interfaces."
 }
 </script>
-
-</head>
-<style>
+  
+    <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
+  
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+        
+  
     html {
         background: transparent;
+        
     }
     bg {
         left:0px;
         top:0px;
     }
-    body {
-       
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+          
+      font-weight:600;
         padding:10px;
         background: transparent;
     }
@@ -70,7 +78,8 @@
     --matte2: #e4e5f2;
 }
 
-    p {align-items:center;display:flex; gap:5px;}
+    p {align-items:center;display:flex; gap:5px; 
+      font-weight:500;}
 main {
     height: 100dvh;
     overflow-y: auto;
@@ -89,13 +98,28 @@ section {
 
 [hidden]{display:none;}
 
-    </style>
+      iconify-icon, a:hover iconify-icon {
+font-weight:800;  margin:0;padding:0;
+        width:max-content;
+         height:max-content;
+        font-size:28px;
+      }
+      
+      
+      
+      a, a p, a:hover p,a:hover p:hover {
+font-size:
+18px;
+        font-weight:600;
+}
+    </style></head>
+
 <body>
 
 
 <main>
     <section id="ax">
-<bg lbg=""></bg>
+<bg bbg=""></bg>
 <span sm="">
 
 
@@ -104,49 +128,58 @@ section {
 
 </span>
 
-<div scroll="" center >
+<div scroll="" center="">
  
-<p m="" bold style="
-    flex-direction: column;
-    margin:0;padding:0;font-size:52px;">
+<b m="" bold="" title="" style="font-weight:700; padding:0;margin:0;">Now online!</b>
+<span style="gap:0px;max-height:45px;  margin:0;padding:0;
+             justify-content:center;width:max-content;">
+     <iconify-icon icon="mingcute:columns-3-fill"  
+                    style="margin: auto 0; padding:0; width:max-content; font-size:52px;"
+m></iconify-icon>
 
-<b m="" bold title style="padding:0;margin:0;">Welcome to</b>
-    Base UI</p> 
+<p m="" bold="" style="margin:0; padding:0; height:max-content;width:max-content; font-size:52px;">
+   
+Base UI</p> 
 
+  </span>
 
 
 </div> 
 
-
-<a lbg2="" 
-onmousedown="
+<span style="gap:10px;max-height:45px; padding:15px 5px;">
+  <a bbg2=""  onmousedown="
 document.querySelector('#al').hidden^=1;
 document.querySelector('#ax').hidden^=1;
 history.pushState('', '', '/ui/base/more');
 
-"
+" bdr="50" style="max-height:35px; max-width:45px;padding:15px 5px;">
 
-bdr="50" style="max-height:35px; padding:15px 5px;" >
-
-
-<p m="" style="" >
-
-More</p></a>
-<a  mbg="" bdr="50" style="max-height:35px;  padding:15px 5px;" onclick=" navigator.clipboard.writeText(`&lt;link rel=&quot;stylesheet&quot; href=&quot;https://actwu.github.io/ui/base.css&quot;/&gt;`);
-alert('Copied Base ^~^') ">
-<p  b> <svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'><title>add_square_fill</title><g id="add_square_fill" fill='none' fill-rule='evenodd'><path d='M24 0v24H0V0zM12.594 23.258l-.012.002-.071.035-.02.004-.014-.004-.071-.036c-.01-.003-.019 0-.024.006l-.004.01-.017.428.005.02.01.013.104.074.015.004.012-.004.104-.074.012-.016.004-.017-.017-.427c-.002-.01-.009-.017-.016-.018m.264-.113-.014.002-.184.093-.01.01-.003.011.018.43.005.012.008.008.201.092c.012.004.023 0 .029-.008l.004-.014-.034-.614c-.003-.012-.01-.02-.02-.022m-.715.002a.023.023 0 0 0-.027.006l-.006.014-.034.614c0 .012.007.02.017.024l.015-.002.201-.093.01-.008.003-.011.018-.43-.003-.012-.01-.01z'/><path fill='#09244BFF' d='M3 5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2zm4 7a1 1 0 0 1 1-1h3V8a1 1 0 1 1 2 0v3h3a1 1 0 1 1 0 2h-3v3a1 1 0 1 1-2 0v-3H8a1 1 0 0 1-1-1'/></g></svg> Add</p>
+     <iconify-icon icon="mingcute:album-2-fill"  m></iconify-icon>
+    
 </a>
+<a lbg="" m bdr="50" style="max-height:35px;  padding:15px 5px;" onclick=" navigator.clipboard.writeText(`&lt;link rel=&quot;stylesheet&quot; href=&quot;https://actwu.github.io/ui/base.css&quot;/&gt;`);
+alert('Copied Base ^~^') ">
+<p m> 
+  
+     <iconify-icon icon="mingcute:copy-fill"  m></iconify-icon>
+  Get Code</p>
+  
+</a>
+      </span>
+      
+
+
 
 </section>
 
-<section id="al"hidden>
+<section id="al" hidden="">
 
 
 
- <div center>
-<p m="" bold style="font-size:42px;">Base UI</p>
+ <div center="">
+<p m="" bold="" style="font-size:42px;">Base UI</p>
 <bg bbg=""></bg>
-    <p m="" >
+    <p m="">
 A UI Framework/Css Using Flex and
 Grid to Create a auto layout.
 <br>
@@ -156,19 +189,22 @@ Simple to create layout and stuff.
  </div>
 
  <span style="gap:10px;max-height:45px; padding:15px 5px;">
-<a bbg2="" bdr="50" style="max-height:35px; padding:15px 5px;"
-onmousedown="
+<a bbg2="" bdr="50" style="max-height:35px; max-width:45px; padding:15px 5px;" onmousedown="
 document.querySelector('#al').hidden^=1;
 document.querySelector('#ax').hidden^=1;
 
 history.pushState('', '', '/ui/base');
-" >
-<svg xmlns='http://www.w3.org/2000/svg'  style="max-height:35px; padding:15px 5px;" width='32px' height='32px' viewBox='0 0 24 24'><title>square_arrow_left_fill</title><g id="square_arrow_left_fill" fill='none' fill-rule='evenodd'><path d='M24 0v24H0V0h24ZM12.594 23.258l-.012.002-.071.035-.02.004-.014-.004-.071-.036c-.01-.003-.019 0-.024.006l-.004.01-.017.428.005.02.01.013.104.074.015.004.012-.004.104-.074.012-.016.004-.017-.017-.427c-.002-.01-.009-.017-.016-.018Zm.264-.113-.014.002-.184.093-.01.01-.003.011.018.43.005.012.008.008.201.092c.012.004.023 0 .029-.008l.004-.014-.034-.614c-.003-.012-.01-.02-.02-.022Zm-.715.002a.023.023 0 0 0-.027.006l-.006.014-.034.614c0 .012.007.02.017.024l.015-.002.201-.093.01-.008.003-.011.018-.43-.003-.012-.01-.01-.184-.092Z'/><path fill='#fafaff' d='M6 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3V6a3 3 0 0 0-3-3H6Zm7.707 6.879L11.586 12l2.121 2.121a1 1 0 0 1-1.414 1.415l-2.829-2.829a1 1 0 0 1 0-1.414l2.829-2.829a1 1 0 1 1 1.414 1.415Z'/></g></svg></a>
+">
 
-<a  bdr="50" style="max-height:35px; padding:15px 5px;" >
-<svg xmlns='http://www.w3.org/2000/svg' width='32px' height='32px' viewBox='0 0 24 24'><title>square_arrow_right_fill</title><g id="square_arrow_right_fill" fill='none' fill-rule='evenodd'><path d='M24 0v24H0V0h24ZM12.594 23.258l-.012.002-.071.035-.02.004-.014-.004-.071-.036c-.01-.003-.019 0-.024.006l-.004.01-.017.428.005.02.01.013.104.074.015.004.012-.004.104-.074.012-.016.004-.017-.017-.427c-.002-.01-.009-.017-.016-.018Zm.264-.113-.014.002-.184.093-.01.01-.003.011.018.43.005.012.008.008.201.092c.012.004.023 0 .029-.008l.004-.014-.034-.614c-.003-.012-.01-.02-.02-.022Zm-.715.002a.023.023 0 0 0-.027.006l-.006.014-.034.614c0 .012.007.02.017.024l.015-.002.201-.093.01-.008.003-.011.018-.43-.003-.012-.01-.01-.184-.092Z'/><path fill='#fafaff' d='M6 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3V6a3 3 0 0 0-3-3H6Zm4.293 11.121L12.414 12l-2.121-2.121a1 1 0 1 1 1.414-1.415l2.829 2.829a1 1 0 0 1 0 1.414l-2.829 2.829a1 1 0 1 1-1.414-1.415Z'/></g></svg></a>
+     <iconify-icon icon="mingcute:home-1-fill" m></iconify-icon>
+   </a>
+
+<span> 
+</span>
  
 </span>
+  
+  
 </section>
 </main>
 
@@ -177,5 +213,6 @@ history.pushState('', '', '/ui/base');
      document.querySelector('#ax').hidden ^= 1)
   : null;
 </script>
+
 
 </body></html>
