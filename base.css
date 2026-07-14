@@ -72,8 +72,11 @@ display: flex;
 flex-direction: column; 
 }
 
-*,*:hover{
+* {
 margin: 0;
+}
+*{
+
 border: unset;
 outline: unset;
 border-radius: 0;
