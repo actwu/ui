@@ -28,9 +28,9 @@ font-size: 18px;
 text-decoration: none; 
 text-rendering: optimizeLegibility;
 text-transform: none; 
---red: #FF6252;  --blue: #007AFF;  --yell: #FDAD15;  --green: #2AC670;  --pink: #F1CCD7;  --vio: #bb78fa;  --matte: #fff2ff;  --black: #131314;
+--red: #FF6252;  --blue: #007AFF;  --yell: #FDAD15;  --green: #2AC670;  --pink: #F1CCD7;  --vio: #bb78fa;  --matte: #fff2ff;  --black: #0d0d0f;
 
---red2: #661e28;  --blue2: #0d1938;  --yell2: #807142;  --green2: #278c50;  --pink2: #8c5f6d; --vio2: #492d63;  --matte2: #a18fa1;  --black2: #1e1f20;
+--red2: #661e28;  --blue2: #0d1938;  --yell2: #807142;  --green2: #278c50;  --pink2: #8c5f6d; --vio2: #492d63;  --matte2: #a18fa1;  --black2: #151517;
 
 
 font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; }
