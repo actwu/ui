@@ -1,13 +1,69 @@
 
-/*COPYLEFT BY ACTWU  ITS WHAT MADE WITH ANY CODE COPY FROM THIS MUST CREDIT SHOULD NOT BE COPIED ALL COPIES THAT IS NOT NOTED BY ACTWU IS PROHIBITED*//*https://actwu.github.io/ui/base*/
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+
+
+html {
+background: transparent;
+
+}
+bg {
+left:0px;
+top:0px;
+}
+body {
+font-family: 'Plus Jakarta Sans', sans-serif;
+
+font-weight:600;
+padding:10px;
+background: transparent;
+}
+*{--matte: #fafaff;
+--matte2: #e4e5f2;
+}
+
+p {align-items:center;display:flex; gap:5px; 
+font-weight:500;}
+
+main {
+height: 100dvh;
+overflow-y: auto;
+scroll-snap-type: y mandatory;
+scroll-behavior: smooth;gap:5px;
+}
+
+section {
+display: flex;  margin:auto;
+max-width: 720px;
+flex-direction: column;gap:5px;
+min-height: 95dvh;
+height: 95dvh;
+scroll-snap-align: start;
+}
+
+[hidden]{display:none;}
+
+iconify-icon, a:hover iconify-icon {
+font-weight:800;  margin:0;padding:0;
+width:max-content;
+height:max-content;
+font-size:28px;
+}
+
+
+
+a, a p, a:hover p,a:hover p:hover {
+font-size:
+18px;
+font-weight:600;
+}
+
 
 @media screen {
 ::-webkit-scrollbar { /*_irie*/ width: 12px;  height: 12px;}
 ::-webkit-scrollbar-thumb {  background: #888;  /*_urh*/ border-radius: 10px;}
 ::-webkit-scrollbar-thumb:hover {  background: #555;} 
 
-  
+
 html, body {
 height: 100vh;
 margin: 0;
@@ -111,7 +167,7 @@ screen#logo {top: 0px;right: 0px;left: 0px;bottom: 0px;width: 0%;height: 0%;z-in
 [mbg2] {background-color: var(--matte2);}
 [mol2] {outline: var(--matte2) solid 2px}
 
-  [rsh] {border-bottom: 4px solid color-mix(in srgb, var(--red) 75%, black); transform: translateY(0); transition: 0.2s;}
+[rsh] {border-bottom: 4px solid color-mix(in srgb, var(--red) 75%, black); transform: translateY(0); transition: 0.2s;}
 [rsh]:hover {border-bottom-color: color-mix(in srgb, var(--red) 0%, black); transform: translateY(2px);}
 
 [rsh2] {border-bottom: 4px solid color-mix(in srgb, var(--red2) 75%, black); transform: translateY(0); transition: 0.2s;}
@@ -221,7 +277,7 @@ min-height: 0.5in;
 overflow-y: scroll;
 
 }
-  
+
 [scroll] {
 overflow-y: scroll;
 }
@@ -251,7 +307,7 @@ max-width:0;
 z-index:-3;
 bottom:0;
 }
-  
+
 [hide] {
 display: none;
 visibility: hidden;
@@ -375,37 +431,37 @@ color: var(--matte);
 
 @media screen {
 
-    html {
-        background: transparent;
-    }
-    bg {
-        left:0px;
-        top:0px;
-    }
-    body {
-       
-        padding:10px;
-        background: transparent;
-    }
+html {
+background: transparent;
+}
+bg {
+left:0px;
+top:0px;
+}
+body {
+
+padding:10px;
+background: transparent;
+}
 *{--matte: #fafaff;
-    --matte2: #e4e5f2;
+--matte2: #e4e5f2;
 }
 
-    p {align-items:center;display:flex; gap:5px;}
+p {align-items:center;display:flex; gap:5px;}
 main {
-    height: 100dvh;
-    overflow-y: auto;
-    scroll-snap-type: y mandatory;
-    scroll-behavior: smooth;gap:5px;
+height: 100dvh;
+overflow-y: auto;
+scroll-snap-type: y mandatory;
+scroll-behavior: smooth;gap:5px;
 }
 
 section {
-    display: flex;  margin:auto;
-        max-width: 720px;
-    flex-direction: column;gap:5px;
-    min-height: 95dvh;
-    height: 95dvh;
-    scroll-snap-align: start;
+display: flex;  margin:auto;
+max-width: 720px;
+flex-direction: column;gap:5px;
+min-height: 95dvh;
+height: 95dvh;
+scroll-snap-align: start;
 }
 
 [hidden]{display:none;}
